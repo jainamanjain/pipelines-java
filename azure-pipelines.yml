@@ -1,12 +1,10 @@
 jobs:
 - job: Job1
   steps:
-  - task: PublishPipelineArtifacts@0
+  - task: PublishPipelineArtifact@0
     inputs:
       artifactName: 'A1'
       targetPath: 'pom.xml'
-
-
 
 
 
