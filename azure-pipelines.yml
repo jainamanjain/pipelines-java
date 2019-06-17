@@ -5,6 +5,11 @@ jobs:
     inputs:
       artifactName: 'A1'
       targetPath: 'pom.xml'
+      
+  - task: PublishPipelineArtifact@0
+    inputs:
+      artifactName: 'A2'
+      targetPath: 'README.md'
 
 
 
